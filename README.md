@@ -17,6 +17,11 @@ The dataset could not be imported as is, it contains way more information than t
 
 ### The structure of the repo
 
+#### v1.2
+Creation of subfolders within the `variables` directory for each of the 4 cases. Creation of two more directories:
+* `finalmodels`: containing the saved final model corresponding to each case.
+* `generatednames`: containing 5 names generated with each of the final models.
+
 #### v1.1
 Addition of a `variables` directory, where some useful variables (index_to_char, char_to_index, m, max_char, numchars, validchars) are saved in their corresponding files using the python Pickle module.
 
